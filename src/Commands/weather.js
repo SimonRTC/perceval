@@ -32,6 +32,15 @@ module.exports = {
             }
           }
         });
+        setTimeout(() => {
+            msg.channel.send("!meteo");
+            setTimeout(() => {
+                msg.channel.send("... <@834713245348659220> ??");
+                setTimeout(() => {
+                    msg.channel.send("Minable <@834713245348659220>....");
+                }, 2500);
+            }, 1200);
+        }, 500);
         return;
     }
 };
