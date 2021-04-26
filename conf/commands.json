@@ -1,0 +1,45 @@
+{
+    "prefix": "#",
+    "commands": [
+        {
+            "name": "SHOW_HELP_ON_CHANNEL",
+            "display": "Liste l'ensemble des commandes disponibles.",
+            "common": "daemon::help",
+            "cmd": "help",
+            "args": []
+        },
+        {
+            "name": "REPEAT_AFTER_ME",
+            "display": "Je répète absolument toutes les conneries qu'on peut me dire :)",
+            "common": "daemon::say",
+            "cmd": "say",
+            "args": [
+                {
+                    "name": "text",
+                    "display": "votre texte",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "SHOW_WEEK-END_GIF",
+            "display": "Marque le début d'un bon week-end.",
+            "common": "tenor::weekend",
+            "cmd": "weekend",
+            "args": []
+        },
+        {
+            "name": "DISPLAYS_LIVE_WEATHER",
+            "display": "Affiche la météo en direct sur la ville de votre choix",
+            "common": "weather::show",
+            "cmd": "evelyne",
+            "args": [
+                {
+                    "name": "city",
+                    "display": "ville",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

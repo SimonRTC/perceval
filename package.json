@@ -1,0 +1,23 @@
+{
+  "name": "perceval",
+  "version": "1.0.0",
+  "description": "A silly robot created for no reason",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonRTC/idiota-robot.git"
+  },
+  "author": "Simon Malpel <simon.malpel@orange.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonRTC/idiota-robot/issues"
+  },
+  "homepage": "https://github.com/SimonRTC/idiota-robot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3"
+  }
+}

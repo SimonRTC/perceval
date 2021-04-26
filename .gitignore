@@ -1,0 +1,9 @@
+# NodeJs
+/node_modules/
+/package-lock.json
+
+# webpack
+/dist/bundle.min.js
+
+# Discord bot configuration
+/conf/discord.json
